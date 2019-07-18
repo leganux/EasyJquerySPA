@@ -1,0 +1,17 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+
+    <!-- Cuando hay un pase de parametros puede desplegarse en HTML de la siguiente manera aciendo uso de {=[NOMBREDELPARAMETRO]=} -->
+    <h1>{=ejemplo=}</h1>
+
+    <!-- Para evitar el webscraping podemos generar elementos de idenficacion dinamicos con el uso de {{[NOMBREDELELEMENTOAASIGNAR]}} -->
+    <button id="{{btnGoToScreen2}}" class="btn btn-primary"> Click para cargar la pagina 2</button>
+    <button class="btn btn-primary {{btnGoToScreen3}}"> Click para cargar la pagina 3</button>
+
+    <!-- Para cuando se asigna el archivo de idiomas la imformacion puede ser desplegada de la siguiente forma -->
+    <h1>{L=access=} {L=friend=} </h1>
+</center>

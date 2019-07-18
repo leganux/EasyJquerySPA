@@ -1,0 +1,1 @@
+console.log('Ejetuta e iniciliza las funciones del footer');
